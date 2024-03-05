@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Moodbd
+(Moodbored?)
 
-## Getting Started
+Mutual mood micro management.
 
-First, run the development server:
+### Explanation
+Moodbored is a hybrid between a **social media platform** and a **personal diary/mood tracking service.** It allows users to post one update per day (called a "mood"), with a numeric rating, a list of people who were involved, and a particular song (optional).
+ Other users can see their moods, and like/react/comment on them.  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+In the future, users will be able to see how their mood changes over time, over a variety of time scales.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Moderation
+Users may be tempted to artificially inflate their mood rating, or to post false/misleading mood updates. To combat this, Moodbored shows the average mood rating for a user, based on their recent and long-term mood activity. In this way, any user with a seemingly high mood rating can be identified.
+### Rationale
+Moodbored was conceived and designed by people with autism, attention-deficit hyperactivity disorder (ADHD), and borderline personality disorder. It is designed to help people understand, express, and monitor their emotions. By allowing people to make private, small (or large) updates, it also allows their loved ones to easily check in and see how they might be doing, when they are too afraid to share.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+However, it is open to everyone.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Example
+![alt text](image-1.png)
+### Future Plans & Roadmap
+- [ ] Trend analysis
+  - Mood over time
+  - Mood by day of the week
+  - Mood by time of day?
+- [ ] Custom scales (a la Letterboxd, Rate Your Music)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### Copyright
+&copy; 2024 Jackson Rakena, MIT License
