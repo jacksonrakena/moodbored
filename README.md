@@ -1,7 +1,6 @@
-# Moodbd
-(Moodbored?)
+# Moodboard: The Worlds We Share
 
-Mutual mood micro management.
+Mutual mood micro management, for when words don't fit.
 
 ### Explanation
 Moodbored is a hybrid between a **social media platform** and a **personal diary/mood tracking service.** It allows users to post one update per day (called a "mood"), with a numeric rating, a list of people who were involved, and a particular song (optional).
